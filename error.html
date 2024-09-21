@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <p id="a"></p>
+    <p id="b"></p>
+    <script>
+        try{
+            var text="";
+     while(i<100)
+     {
+        text+="<br> The number is "+i;
+        i++;
+     }
+     document.getElementById("a").innerHTML=text;
+        }
+        catch(error){
+            document.getElementById("b").innerHTML=error.message
+        }
+    </script>
+</body>
+</html>
